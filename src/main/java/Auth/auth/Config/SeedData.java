@@ -1,19 +1,19 @@
 package Auth.auth.Config;
 
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import Auth.auth.Service.AccountService;
-import Auth.auth.Service.TrendService;
+// import Auth.auth.Service.AccountService;
+// import Auth.auth.Service.TrendService;
 
 
 @Component
 public class SeedData implements  CommandLineRunner{
-    @Autowired
-    private AccountService accountService;
-    @Autowired
-    private TrendService trendService;
+    // @Autowired
+    // private AccountService accountService;
+    // @Autowired
+    // private TrendService trendService;
    
     @Override
     public void run(String... args) throws Exception {   
